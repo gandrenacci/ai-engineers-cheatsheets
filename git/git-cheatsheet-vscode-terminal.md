@@ -99,9 +99,16 @@ git switch develop
 # Rename a branch
 git branch -m old-name new-name
 
-# Delete a local branch
+# Delete a branch
 git branch -d feature/branch-name       # Delete only if already merged
 git branch -D feature/branch-name       # Force delete
+git branch -d -r origin/feature/branch-name  # Delete remote tracking branch
+
+# List all branches
+git branch                               # Local branches
+git branch -r                            # Remote branches
+git branch -a                            # All branches
+
 
 # Delete a remote branch
 git push origin --delete feature/branch-name
