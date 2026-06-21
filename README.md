@@ -6,3 +6,6 @@ A practical collection of developer, AI engineering, cloud, data, and DevOps che
 
 ### Git & GitHub
 - [Git Cheatsheet — VS Code Terminal](git/git-cheatsheet-vscode-terminal.md)
+
+### Linux
+- [Linux Cheatsheet for AI Managers](linux/ai-managers-linux.md)
